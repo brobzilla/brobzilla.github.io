@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[rob-kennedy.com]]></title>
+  <link href="http://rob-kennedy.com/atom.xml" rel="self"/>
+  <link href="http://rob-kennedy.com/"/>
+  <updated>2014-01-31T09:41:28-05:00</updated>
+  <id>http://rob-kennedy.com/</id>
+  <author>
+    <name><![CDATA[Rob Kennedy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
