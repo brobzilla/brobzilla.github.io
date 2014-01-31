@@ -4,7 +4,7 @@
   <title><![CDATA[rob-kennedy.com]]></title>
   <link href="http://rob-kennedy.com/atom.xml" rel="self"/>
   <link href="http://rob-kennedy.com/"/>
-  <updated>2014-01-31T09:41:28-05:00</updated>
+  <updated>2014-01-31T10:21:11-05:00</updated>
   <id>http://rob-kennedy.com/</id>
   <author>
     <name><![CDATA[Rob Kennedy]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[This Is a Test Post]]></title>
+    <link href="http://rob-kennedy.com/blog/2014/01/31/this-is-a-test-post/"/>
+    <updated>2014-01-31T09:48:34-05:00</updated>
+    <id>http://rob-kennedy.com/blog/2014/01/31/this-is-a-test-post</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
