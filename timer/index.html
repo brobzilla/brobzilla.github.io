@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Countdown timer</title>
+<style>
+  #timer {
+    font-family: sans;
+    font-size: 4em;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    width: 7em;
+    background: #ffea61;
+    box-shadow: 0 0 0.5em #999;
+  }
+
+  #start {
+    font-family: sans;
+    font-size: 4em;
+    color: #333;
+    text-align: center;
+    padding: 0.1em;
+    margin-top: 0.6em;
+    width: 9em;
+    background: #ff1621;
+    box-shadow: 0 0 0.5em #999;
+    display: block;
+  }
+
+  #copy {
+    font-family: sans;
+    font-size: 4em;
+    color: #333;
+    text-align: center;
+    padding: 0.1em;
+    margin-top: 0.6em;
+    width: 9em;
+    background: #169921;
+    box-shadow: 0 0 0.5em #999;
+    display: none;
+  }
+</style>
+
+<div id="timer">
+  00:00:00
+</div>
+
+<div id="start" onclick="enable()">Start</div>
+<div id="copy" onclick="copyUrl()">Copy URL</div>
+
 <script src="timer.js"></script>
