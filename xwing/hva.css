@@ -1,0 +1,40 @@
+.md code {
+        color: #ff0000;
+        background:  #eeeeee;
+        padding: 1px 2px 1px 2px;
+        border: solid 1px #cccccc;
+        border-radius:  4px;
+}
+.md pre code {
+        color: #222;
+        background:  unset;
+        padding: 0px;
+        border: unset;
+        border-radius: unset;
+}
+
+
+.md h1:before, .md h2:before, .md h3:before, .md h4:before, .md h5:before, .md h6:before { content: none; }
+
+.md a,
+.md div.title, contents, .md .tocHeader,
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6,
+.md .nonumberh1, .md .nonumberh2, .md .nonumberh3, .md .nonumberh4, .md .nonumberh5, .md .nonumberh6,
+.md .shortTOC, .md .mediumTOC, .md .longTOC {
+    font-family: inherit;
+}
+
+
+.md div.title, .md h1, .md h2, .md h3, .md h4 {
+    font-family: 'Wallpoet';
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+.md .tocTop {
+    display: inline;
+}
+
+
