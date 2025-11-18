@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh;            /* full viewport height */
+}
+
+
+.progress {
+  height: 10px;
+  border-radius: 4px;
+  background-color: #e2e8f0;
+}
+
+.reid {
+    width:200px;
+    height:200px;
+    border-radius:25%;
+    overflow:hidden;
+}
+
+.bar {
+  border-radius: 4px;
+  height: 100%;
+  background-color: #3b82f6;
+  transition:
+    background-color 0.3s ease,
+    width 1s linear;
+}
+
+.warn {
+  span {
+    color: orange;
+  }
+
+  .bar {
+    background: orange;
+  }
+}
+
+.danger {
+  span {
+    color: red;
+  }
+
+  .bar {
+    background: red;
+  }
+}
