@@ -1,5 +1,6 @@
 <div class="container">
   <div
+    class="box"
     [class.warn]="secondsRemaining() <= warnAt"
     [class.danger]="secondsRemaining() <= dangerAt">
     <div class="reid" (click)="toggleView = !toggleView">
@@ -7,17 +8,17 @@
     </div>
     <div class="timer">
       @if (secondsRemaining()) {
-        <span class="label">Reid gets here in:</span>
+        <div class="label">Reid gets here in:</div>
         <br>
-        <span class="value">
+        <div class="value">
         @if( toggleView ) {
           {{ formattedRemaining() }}
         } @else {
           {{ hoursRemaining() }}
         }
-        </span>
+        </div>
       } @else {
-        <span class="label">Reid is here!</span>
+        <div class="label">Reid is here!</div>
       }
     </div>
 
@@ -26,6 +27,10 @@
         class="bar"
         [style.width.%]="(secondsRemaining() / total) * 100">
       </div>
+    </div>
+
+    <div class="reid" (click)="toggleView = !toggleView">
+      <img  ngSrc="./reid2.png" width="196" height="196" priority alt="Reid">
     </div>
   </div>
 </div>

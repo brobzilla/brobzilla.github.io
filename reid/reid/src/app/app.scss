@@ -5,11 +5,33 @@
   height: 100vh;            /* full viewport height */
 }
 
+.box {
+  align-self: center;
+}
+.timer {
+  width: 100%;
+}
+
+.label {
+  align-self: center;
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
 
 .progress {
   height: 10px;
   border-radius: 4px;
   background-color: #e2e8f0;
+  margin-bottom: 4px;
 }
 
 .reid {
