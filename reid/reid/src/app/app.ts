@@ -12,7 +12,7 @@ import {NgOptimizedImage} from '@angular/common';
 })
 export class App {
   toggleView = true;
-  readonly date = new Date("2026-03-15T23:00:00");
+  readonly date = new Date("2026-03-06T13:00:00");
   readonly startDate = new Date("2026-01-31T23:00:00");
   readonly total = (this.date.getTime() - this.startDate.getTime()) / 1000;
   readonly warnAt = 10;
